@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #ffffff;
+    color: #ffffff;
+    padding:40px;
+    display: flex;
+    justify-content: flex-end; /* Align the content to the right */
+    
+}
+.fixed{
+    position: fixed;
+    top:0;
+    left:0;
+
+    width: 99%;
+    background-color: #eeeeee;
+    color: #f3f1f1;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100; 
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px; 
+    
+}
+
+nav ul li:first-child {
+    margin-left:
+}
+
+nav ul li a {
+    color: #222222;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 30px;
+    
+    
+}
+
+nav ul li a:hover {
+    color:red;
+    text-decoration: underline;
+}
+
+.logo img {
+    height: 80px;
+    padding-left: 75px;
+    
+}
+.fullscreen-image {
+    height: 100vh; 
+    background-image: url('bg.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+.fullscreen-image1 {
+    height: 100vh; 
+    background-image: url('bg1.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+nav ul li a.active {
+    
+    font-weight: bold;
+    color:red;
+}
+.button1{
+    border-radius: 8%;
+    border-color: white;
+    
+    
+    padding: 20px;
+    color: white;
+    background-color:red;
+    text-align: center;
+    cursor: pointer;
+    width: 11%;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.welcome{
+    float: left;
+    padding-left: 100px;
+    padding-top: 100px;
+    width: 40%;
+}
+
+.aside1{ 
+    width: 50%;
+    float: right;
+    padding-right: 20px;
+    padding-top: 100px;
+}
+.button2{
+ 
+    border-radius: 8%;
+    border-color: white;
+    
+    
+    padding: 20px;
+    color: white;
+    background-color:red;
+    text-align: center;
+    cursor: pointer;
+    width: 30%;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.bdiv{
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.footer{
+    height: 150px;
+    background-color:#222222;
+    clear: both;
+    color: #fff;
+}
+
+.fso{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.container{
+    width: 80%; 
+    padding-left: 10%;
+
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 60%;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    
+    
+  }
+
+  .aside2{ 
+    width: 40%;
+    float: right;
+    padding-right: 60px;
+    padding-top: 100px;
+}
+
+.welcome2{
+    float: left;
+    padding-left: 220px;
+    padding-top: 100px;
+    width: 40%;
+}
